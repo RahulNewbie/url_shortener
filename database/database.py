@@ -32,7 +32,7 @@ class Database:
 
     def create_table(self):
         """
-        Create movie table to store the movie data
+        Create url table to store the url data
         """
         conn = self._connect_DB()
         cur = conn.cursor()
@@ -69,7 +69,7 @@ class Database:
         url_id = cur.fetchone()
         return url_id[0]+1
 
-    def insert_movie_data(self, url):
+    def insert_url_data(self, url):
         """
         Insert the url data into database table
         """

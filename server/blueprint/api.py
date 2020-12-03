@@ -11,7 +11,7 @@ api = Blueprint('api', __name__)
 def shorten_url():
     url = request.get_data().decode("utf-8")
     try:
-        url_id = current_app.config['DB'].insert_movie_data(url)
+        url_id = current_app.config['DB'].insert_url_data(url)
         shortened_url = url_shortener(url_id)
         return shortened_url, status.HTTP_200_OK
     except OSError:
