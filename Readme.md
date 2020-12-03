@@ -6,7 +6,8 @@ python 3.8
 
 pip version 19.3.1
 
-###Installation
+### Installation
+
 Please use the following command to install the dependencies
 
 ```
@@ -14,7 +15,8 @@ pip install -r requirements.txt
 
 ```
 
-###Usage
+### Usage
+
 Please run the following command to run the application
 ```
 python application.py
