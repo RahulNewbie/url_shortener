@@ -1,4 +1,4 @@
-Welcome to Consumer Update project
+Welcome to Url shortener project
 
 Used Python and pip Version
 
